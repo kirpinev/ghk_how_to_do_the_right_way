@@ -7,6 +7,10 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link
+          rel="stylesheet"
+          href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+  />
 </head>
 <body>
   <div id="app"></div>
@@ -16,9 +20,23 @@
       repo: "https://github.com/kirpinev/ghk_how_to_do_the_right_way",
       loadSidebar: true,
       relativePath: true,
+      darklightTheme: {
+        defaultTheme: 'dark',
+        dark: {
+          background: '#1e1e1e',
+          textColor: '#e0e0e0',
+          codeBackgroundColor: '#2d2d2d',
+          codeTextColor: '#ffffff',
+        },
+        light: {
+          background: '#ffffff',
+          textColor: '#000000',
+        }
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
 </body>
 </html>
