@@ -1,0 +1,22 @@
+{
+  "name": "ghk_how_to_do_the_right_way",
+  "version": "1.0.0",
+  "description": "- [1. Установка Node.js на macOS](./nodejs.md) - [2. Установка Git на macOS](./git.md) - [3. Установка Homebrew и pnpm на macOS](./homebrew_pnpm.md) - [4. Создание репозитория на Github](./github_create_repo.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirpinev/ghk_how_to_do_the_right_way.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirpinev/ghk_how_to_do_the_right_way/issues"
+  },
+  "homepage": "https://github.com/kirpinev/ghk_how_to_do_the_right_way#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
